@@ -1050,42 +1050,42 @@ header .select-dropdown-input-container {
   box-sizing: content-box;
 }
 
-div.ganttview {
+#gantt-chart div.ganttview {
   border-radius: 3px;
 }
-div.ganttview,
-div.ganttview-slide-container {
+#gantt-chart div.ganttview,
+#gantt-chart div.ganttview-slide-container {
   border-color: #c1cbd4
 }
-div.ganttview,
-div.ganttview-vtheader,
-div.ganttview-hzheader-day {
+#gantt-chart div.ganttview,
+#gantt-chart div.ganttview-vtheader,
+#gantt-chart div.ganttview-hzheader-day {
   background: #f9fafa;
   color: #86929e;  
 }
-div.ganttview-grid {
+#gantt-chart div.ganttview-grid {
   background: white;
 }
-div.ganttview-hzheader-month {
+#gantt-chart div.ganttview-hzheader-month {
   background: #f9fafa;
   color: #86929e;
   font-weight: bold;
 }
-div.ganttview-vtheader-series-name {
+#gantt-chart div.ganttview-vtheader-series-name {
   height: 32px;
   line-height: 32px;
   padding-left: 15px;
 }
-div.ganttview-vtheader-series-name a,
-div.ganttview-vtheader-series-name a:focus,
-div.ganttview-vtheader-series-name a:hover,
-div.ganttview-vtheader-series-name a:visited,
-div.ganttview-vtheader-series-name a i,
-div.ganttview-vtheader-series-name a:focus i,
-div.ganttview-vtheader-series-name a:hover i,
-div.ganttview-vtheader-series-name a:visited i,
-div.ganttview-vtheader-item,
-.tooltip .fa-info-circle {
+#gantt-chart div.ganttview-vtheader-series-name a,
+#gantt-chart div.ganttview-vtheader-series-name a:focus,
+#gantt-chart div.ganttview-vtheader-series-name a:hover,
+#gantt-chart div.ganttview-vtheader-series-name a:visited,
+#gantt-chart div.ganttview-vtheader-series-name a i,
+#gantt-chart div.ganttview-vtheader-series-name a:focus i,
+#gantt-chart div.ganttview-vtheader-series-name a:hover i,
+#gantt-chart div.ganttview-vtheader-series-name a:visited i,
+#gantt-chart div.ganttview-vtheader-item,
+#gantt-chart .tooltip .fa-info-circle {
   color: #4f5d6b;
 }
 
