@@ -4,7 +4,7 @@
 Screenshots
 ------------
 
-![Dashboard](Assets/screenshots/dashbord.png)
+![Dashboard](Assets/screenshots/dashboard.png)
 ![Gantt](Assets/screenshots/gantt.png)
 ![Board](Assets/screenshots/board.png)
 ![New Task](Assets/screenshots/task-new.png)
