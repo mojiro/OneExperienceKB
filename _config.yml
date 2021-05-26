@@ -1,0 +1,4 @@
+theme: mojiro-OneExperienceKB
+title: Kanboard plugin theme
+plugins:
+  - prism
