@@ -293,7 +293,8 @@ ul.dropdown-submenu-open {
 }
 .table-list > .table-list-header {
   background: #f1f3f5;
-  border: 0;
+  border: none;
+  border-radius: 0;
   color: #2a3b47;
   font-size: 14px;
   font-weight: bold;
@@ -823,7 +824,7 @@ header .select-dropdown-input-container {
 }
 .sidebar {
   background: unset;
-  border: 0;
+  border: none;
   border-radius: 0;
   padding: 0 12px 0 0;
   width: 260px;
@@ -887,6 +888,7 @@ header .select-dropdown-input-container {
   padding: 12px 18px;
 }
 .sidebar-content .page-header h2 {
+  border-bottom: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
