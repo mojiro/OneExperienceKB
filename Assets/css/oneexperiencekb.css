@@ -180,6 +180,14 @@ table.table-small {
   font-size: 1em;
 }
 
+table tr.draggable-item-selected {
+  border: solid 1px #ddd;
+  opacity: 0.8;
+}
+table tr.draggable-item-selected td {
+  background: #f1f3f5 !important;
+}
+
 
 /* Global - Panels, Fieldsets */
 
@@ -559,8 +567,6 @@ ul.dropdown-submenu-open {
   max-height: 80%;
   margin-top: 30px;
   padding: 0;
-  min-width: 1350px;
-  max-width: 80%;
 }
 #modal-header {
   position: absolute;
@@ -693,7 +699,6 @@ ul.dropdown-submenu-open {
   color: #394956;
   font-size: 14px;
   font-weight: bold;
-  ztransition: all 0.4s;
   padding: 10px;
   width: 100%;
 }
@@ -741,8 +746,8 @@ ul.dropdown-submenu-open {
   margin-bottom: 0 !important;
   border-radius: 3px 3px 0 0;
   padding: 4px 5px;
-  width: 700px;
-  max-width: 98%;
+  width: 98%;
+  max-width: 700px;
 }
 .text-editor .text-editor-toolbar a {
   border: solid 1px transparent;
@@ -775,11 +780,21 @@ ul.dropdown-submenu-open {
 .text-editor textarea {
   border-radius: 0 0 3px 3px;
   margin-top: 0;
+  width: 98%;
+  max-width: 700px;
 }
 .text-editor textarea:focus {
   border: 1px solid #c1cbd4;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
+#modal-content .text-editor .text-editor-toolbar {
+  max-width: 98%;
+}
+#modal-content .text-editor textarea {
+  max-width: 98%;
+}
+
 
 
 /* Components - Buttons */
@@ -1358,6 +1373,7 @@ header input.select-dropdown-input:focus {
   font-size: 34px;
   margin-top: 30px;
   padding: 14px;
+  min-width: 150px;
 }
 .project-overview-column:hover {
   box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
@@ -1504,6 +1520,20 @@ header input.select-dropdown-input:focus {
 .sidebar-content #task-summary ~ * {
   margin: 15px;
   width: calc(100% - 30px);
+}
+
+
+/* Pages - Task - Modal Form */
+
+#modal-content .task-form-main-column {
+  width: calc(100% - 480px);
+}
+#modal-content .task-form-main-column #form-title {
+  width: 98%;
+  max-width: 98%;
+}
+#modal-content .task-form-secondary-column {
+  width: 240px;
 }
 
 
