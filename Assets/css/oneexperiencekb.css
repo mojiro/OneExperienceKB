@@ -411,6 +411,7 @@ ul.dropdown-submenu-open {
   font-size: 14px;
   grid-template-rows: 1fr auto;
   margin-bottom: 15px;
+  overflow: hidden;
   padding: 14px 14px 14px 9px;
   width: 100%;
 }
@@ -855,7 +856,10 @@ span.btn {
   border-color: #ac2925;
   color: white;
 }
-
+.btn:disabled,
+.btn:disabled .fa {
+  color: var(--button-disabled-color);
+}
 
 /* Components - Back to top */
 
@@ -1182,6 +1186,7 @@ header input.select-dropdown-input:focus {
 .sidebar-content {
   box-shadow: 0 0 10px rgba(0,0,0,.2);
   flex: unset;
+  min-height: calc(100vh - 90px);
   order: unset;
   padding: 0;
   width: calc(100% - 260px);
