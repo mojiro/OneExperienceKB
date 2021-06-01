@@ -254,6 +254,7 @@ fieldset > legend {
   padding: 5px 7px 6px 7px;
 }
 .input-addon-item a,
+.input-addon-item a:visited,
 .input-addon-item a .fa {
   color: #333;
 }
@@ -313,8 +314,8 @@ ul.dropdown-submenu-open {
   border-bottom-right-radius: 3px;
   border-right-color: #c4c8cc;
 }
-.views li.active,
-.views li:hover {
+.views li:hover,
+.views li.active {
   background: #f1f3f5;
   border-color: #a5a9ac;
   padding: 6px 0 7px 0;
@@ -1160,7 +1161,10 @@ header input.select-dropdown-input:focus {
   background: #f1f3f5;
   color: #394956;
 }
-.sidebar > ul li.active a {
+.sidebar > ul li.active a,
+.sidebar > ul li.active a:focus,
+.sidebar > ul li.active a:hover,
+.sidebar > ul li.active a:visited {
   background: #deecf9;
   color: #005a9e;
 }
