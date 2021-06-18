@@ -1168,7 +1168,8 @@ header input.select-dropdown-input:focus {
 .sidebar > ul li.active a,
 .sidebar > ul li.active a:focus,
 .sidebar > ul li.active a:hover,
-.sidebar > ul li.active a:visited {
+.sidebar > ul li.active a:visited,
+.sidebar > ul li.active a > .fa {
   background: #deecf9;
   color: #005a9e;
 }
@@ -1182,6 +1183,9 @@ header input.select-dropdown-input:focus {
   color: #2a3b47;
   font-size: 20px;
   margin: 16px 0 6px 0;
+}
+.sidebar li > a > .fa {
+  margin-right: 10px;
 }
 .sidebar-content {
   box-shadow: 0 0 10px rgba(0,0,0,.2);
