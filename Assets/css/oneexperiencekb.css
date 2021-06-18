@@ -648,7 +648,8 @@ ul.dropdown-submenu-open {
   margin-top: 0 !important;
   padding: 14px;
 }
-.activity-event:first-child {
+.activity-event:first-child,
+.page-header + .activity-event {
   border-top: solid 1px #c1cbd4;  
 }
 .activity-event:nth-child(2n) {
